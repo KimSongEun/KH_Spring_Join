@@ -2,6 +2,9 @@ package com.mycompany.testpractice.member.model.vo;
 
 import java.sql.Date;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Member {
 	private String memberId;
 	private String memberPwd;
